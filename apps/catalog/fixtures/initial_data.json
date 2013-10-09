@@ -1,0 +1,65 @@
+[
+{
+    "pk": 1, 
+    "model": "catalog.festival", 
+    "fields": {
+        "country": "Албания", 
+        "date_start": "2013-05-01T11:00:00Z", 
+        "name": "Албанский лев"
+    }
+},
+{
+    "pk": 2, 
+    "model": "catalog.festival", 
+    "fields": {
+        "country": "США", 
+        "date_start": "2013-05-01T10:00:00Z", 
+        "name": "Фестиваль безсюжетного кино"
+    }
+},
+{
+    "pk": 3, 
+    "model": "catalog.festival", 
+    "fields": {
+        "country": "США", 
+        "date_start": "2014-05-21T10:00:00Z", 
+        "name": "NYICFF"
+    }
+},
+{
+    "pk": 4, 
+    "model": "catalog.festival", 
+    "fields": {
+        "country": "Germany", 
+        "date_start": "2013-11-07T01:00:00Z", 
+        "name": "first like Vettel"
+    }
+},
+{
+    "pk": 5, 
+    "model": "catalog.festival", 
+    "fields": {
+        "country": "France", 
+        "date_start": "2013-05-01T10:00:00Z", 
+        "name": "Круассан"
+    }
+},
+{
+    "pk": 6, 
+    "model": "catalog.festival", 
+    "fields": {
+        "country": "Нидерланды (Голландия)", 
+        "date_start": "2013-10-01T10:00:02Z", 
+        "name": "Movies That Matter Festival"
+    }
+},
+{
+    "pk": 7, 
+    "model": "catalog.festival", 
+    "fields": {
+        "country": "США", 
+        "date_start": "2013-10-01T10:00:02Z", 
+        "name": "AHOF's Savannah International Animation Festival"
+    }
+}
+]

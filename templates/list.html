@@ -1,0 +1,16 @@
+<table class='list'>
+<tr>
+    <th>#</th>
+    <th>Name <a href='#' class='sort' data-sort='name-asc'>&uarr;</a> <a href='#' class='sort' data-sort='name-desc'>&darr;</a></th>
+    <th>Country</th>
+    <th>Start Date <a href='#' class='sort' data-sort='date_start-asc'>&uarr;</a> <a href='#' class='sort' data-sort='date_start-desc'>&darr;</a></th>
+</tr>
+{% for fest in festivals %}
+    <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ fest.name }}</td>
+        <td>{{ fest.country }}</td>
+        <td>{{ fest.date_start|date:'Y/m/d' }}</td>
+    </tr>
+{% endfor %}
+</table>
